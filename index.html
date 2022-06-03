@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table % Form</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    
+   <div class="container">
+
+    <table>
+
+        <tr>
+            <th>Name</th>
+            <th>Roll</th> 
+            <th>Class</th> 
+            <th>Section</th>
+        </tr>
+        <tr>
+            <td>Mustakim</td>
+            <td>01</td>
+            <td>9</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>Tahsan</td>
+            <td>10</td>
+            <td>7</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>Limon</td>
+            <td>04</td>
+            <td>10</td>
+            <td>C</td>
+        </tr>
+
+    </table>
+    <br>
+    <form> 
+
+        <fieldset>
+            <legend>Simple Form</legend>
+
+            <label for="Name">Name</label>
+            <input id="Name" type="text" placeholder="Name"><br>
+
+            <label for="Email">Email</label>
+            <input id="Email" type="email" placeholder="Email"><br>
+
+            <label for="Password">Password</label>
+            <input id="Password" type="password" placeholder="Password"><br>
+
+            <input id="HTML" type="radio" name="" id="">
+            <label for="HTML">HTML</label>
+
+            <input id="CSS" type="radio">
+            <label for="CSS">CSS</label>
+
+            <input id="JS" type="checkbox">
+            <label for="JS">JS</label>
+
+            <input id="B5" type="checkbox">
+            <label for="B5">B5</label>
+
+        </fieldset>
+
+    </form>
+
+   </div>
+    
+
+</body>
+</html>
